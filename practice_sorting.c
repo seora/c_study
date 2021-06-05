@@ -22,6 +22,7 @@ void swap(int *a, int *b){
 }
 
 
+// 퀵 정렬 함수
 void quickSort(int start, int end){
     if(start >= end)    return;
     int key = start, i = start + 1, j = end, temp;      //start : 왼쪽부터, end : 오른쪽 끝부터
@@ -94,7 +95,6 @@ int main(){
 
 
 
-
     // 3. 퀵 정렬
     int n;
     printf("퀵 정렬할 숫자 갯수 입력 : ");
@@ -110,8 +110,7 @@ int main(){
     }
 
     
-
-
+    
     return 0;
 }
 
